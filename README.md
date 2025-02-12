@@ -1,8 +1,53 @@
 # MBA-decisions-study
 A Study on Factors Influencing MBA Pursuit
 
+Dependencies
+-------------
+Pandas
+```
+# Import
+import pandas as pd
+
+# Locally 
+pip install pandas
+```
+
+Matplotlib
+```
+# Import
+import matplotlib.pyplot as plt
+
+# Locally through Anaconda (Note: Requires Python Version 3.7 for all functionality)
+conda install matplotlib
+```
+
+Jupyter Notebook
+```
+pip install jupyterlab
+```
+
+Installation
+-------------
+```
+# Clone Repo
+git clone https://github.com/HGrewal13/MBA-decisions-study.git
+
+# Run in Jupyter Notebook
+jupyter notebook MBA_Decisions.ipynb
+```
+
+Introduction
+-------------
+
 We’ve been tasked with identifying factors that influence the decision of employees to pursue an MBA. In this study we work with 10,000 different participants spanning across 5 different job titles – Analysts, Consultants, Engineers, Entrepreneurs, and Managers. 
-In order to analyze and test this dataset we’ve decided to break down our analysis by focusing on 3 main areas pertaining to each participant – their education, employment, as well as their age and gender. Our hypothesis is that we will be able to prove that …
+In order to analyze and test this dataset we’ve decided to break down our analysis by focusing on 3 main areas pertaining to each participant – their education, employment, as well as their age and gender. 
+
+Our hypothesis we will be trying to prove that the following factors would positively influence the pursuit of an MBA:
+1) Undergraduates from top ranking schools
+2) Being funded by scholarships or through employment
+3) Net salary increases
+4) 3-4 years work experience
+5) Being an average age of 25
 
 Section 1 – Education
 ----------------------
@@ -28,6 +73,7 @@ To understand the role university ranking has on pursuing an MBA, we separated r
 3)	Ranks 51 – 100
 4)	Ranks 101 – 250
 5)	Ranks 251 – 500
+
 We then determined the ratio of MBA pursuers to total participants among these 5 groups to identify if MBA pursuers were more likely to emerge from a specific ranking. 
 
 Insert Bar Chart Here
@@ -112,3 +158,33 @@ Thus we can conclude that for participants that decided to pursue an MBA, networ
 Section 3 – Age and Gender’s Impact on Pursuing an MBA
 -------------------------------------------------------
 Analysis 3.1 – Gender 
+
+Among all MBA pursuers in this study, we found that the breakdown in terms of gender were as follows:
+Male: 50.5%
+Female: 44.7%
+Other: 4.8%
+
+We can conclude that males are more likely to pursue an MBA, however, females are not far behind with only a 5.8% difference. 
+
+Analysis 3.2 - Age and Gender 
+
+When conducting this analysis, we investigated age as a complimentary factor to gender. Our participants ranged from ages 21 - 34 across all 3 genders. We identified the mean age to pursue an MBA for participants regardless of their gender was 27% across all 3. We were unable to identify a key influence for pursuing an MBA based on the combination of age and gender.
+
+Insert chart here
+
+This test was inconclusive.
+
+Analysis 3.5 - Years of Work Experience by Gender
+
+Among all MBA pursuers, all 3 genders averaged about 4.5 years of work experience. There was no sufficient data to determine work experience based on gender when pursuing an MBA.
+
+This test was inconclusive.
+
+Final Conclusion
+-----------------
+Although this study was able to determine 2 conclusions: salary increase post-MBA has a strong correlation to pursuing an MBA (see Analysis 2.3), and males are more likely to pursue an MBA (see Analysis 3.1), most of our tests were inconclusive.
+We were only able to prove Hypothesis 3: A net salary increase would positively correlate to pursuing an MBA. 
+This is largely due to the fact that data across all columns of this dataset are too evenly distributed. We worked with nearly equal values across every portion of the study to the point that almost every analysis yielded similar results no matter how to data was divided.
+We can conclude that more diverse data is needed before coming to an accurate conclusion as this is an inaccurate representation of real life.
+
+
