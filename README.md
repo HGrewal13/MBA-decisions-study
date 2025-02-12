@@ -3,7 +3,9 @@ A Study on Factors Influencing MBA Pursuit
 
 We’ve been tasked with identifying factors that influence the decision of employees to pursue an MBA. In this study we work with 10,000 different participants spanning across 5 different job titles – Analysts, Consultants, Engineers, Entrepreneurs, and Managers. 
 In order to analyze and test this dataset we’ve decided to break down our analysis by focusing on 3 main areas pertaining to each participant – their education, employment, as well as their age and gender. Our hypothesis is that we will be able to prove that …
+
 Section 1 – Education
+----------------------
 Analysis 1.1 – Undergraduate Major vs Pursuing MBA
 After first extracting only the participants that pursued an MBA, our next step was to identify the different undergraduate degrees and their impact on this study. The undergraduate degrees used in this dataset were very evenly distributed, allowing us to look at each without worrying about under or over representation. This was a positive sign that we wouldn’t have to worry about bias towards representation of one degree over others.
 This dataset was comprised of the following degrees along with their representation of MBA pursuers: 
@@ -12,8 +14,13 @@ This dataset was comprised of the following degrees along with their representat
 3)	Economics (21.3%)
 4)	Engineering (19.6%)
 5)	Science (20.9%)
+
+
 Insert Pie Chart Here
-Our first analysis showed that each undergraduate degree had an almost equal number of MBA pursuers. Thus, we can conclude that undergraduate major was not a determining factor when identifying which group is more likely to pursue an MBA. This test was inconclusive. 
+
+Our first analysis showed that each undergraduate degree had an almost equal number of MBA pursuers. Thus, we can conclude that undergraduate major was not a determining factor when identifying which group is more likely to pursue an MBA. 
+This test was inconclusive. 
+
 Analysis 1.2 – University Ranking vs Pursuing MBA
 To understand the role university ranking has on pursuing an MBA, we separated rankings into 5 groups:
 1)	Top 10
@@ -22,26 +29,36 @@ To understand the role university ranking has on pursuing an MBA, we separated r
 4)	Ranks 101 – 250
 5)	Ranks 251 – 500
 We then determined the ratio of MBA pursuers to total participants among these 5 groups to identify if MBA pursuers were more likely to emerge from a specific ranking. 
+
 Insert Bar Chart Here
+
 From our bar chart, we can see that Ranks 11-50 and ranks 251-500 were most likely to pursue an MBA among other groups. Ranks 51-100 were the least likely. 
 To further understand this data, we performed a logistical regression analysis and determined the model isn’t statistically significant. Our variable “Undergrad University Ranking” had no specific effect on the MBA decision, with a LLR p-value of 0.603 (p-values greater than 0.05 indicate insignificance). The pseudo R^2 value is very low, indicating that the independent variables are insufficient to explain the MBA decision.
+
 This test was inconclusive.
+
 Analysis 1.3 – Undergraduate GPA vs Pursuing MBA
 Undergraduate degree followed a similar trend to our first 2 analyses and showed us that although participants with medium level GPAs (B students) were most likely to pursue an MBA at 60% of all medium participants, all the values were still very similar. We determined undergraduate degree was not a deciding factor for pursuing an MBA.
+
 This test was inconclusive.
+
 Analysis 1.4 – Funding Source vs Pursuing MBA
 There were 4 funding sources identified in our study – scholarships, self-funded, employer, and loan. These funding sources were evenly represented in our data and so we performed an ANOVA test and determined that with a p-value of 0.5699 and f-statistic of 0.6707, there was no significant difference when considering funding source as an influence on pursuing an MBA.  
 This test was inconclusive.
 Multivariable Logistic Regression Analysis
 We performed one final logistical regression analysis on our entire education dataframe in order to see if there was any other variable that could be used to influence participants’ decision to pursue an MBA. 
+
 Insert Analysis here
+
 All p-values for our columns were over 0.05, indicating there were no variables within this dataset that could be used to determine the likelihood of participants pursuing an MBA.
+
 Our tests for education were inconclusive.
 
 
 
 Section 2.1 – Employment
- Analysis 1 – Current Job Title vs Pursuing MBA
+-------------------------
+Analysis 1 – Current Job Title vs Pursuing MBA
 Our list of participants were among 5 different job titles – Analysts, Consultants, Engineers, Entrepreneurs, and Managers. We calculated the percentage of participants from each job that decided to pursue an MBA, and found that each job title was almost equally as likely to pursue an MBA. 
 Insert bar chart here
 1)	Analysts: 58%
@@ -49,30 +66,49 @@ Insert bar chart here
 3)	Engineers: 60%
 4)	Entrepreneurs: 60%
 5)	Managers: 59%
+
 This test was inconclusive.
+
 Analysis 2.2 – Post MBA Role vs Pursuing MBA
 We performed a very similar analysis among the 5 desired post MBA roles identified in our study – Executives, Marketing Directors, Consultants, Startup Founders, and Finance Managers. Again, each role showed essentially no difference in level of impact to pursuing an MBA.
+
 Insert Bar Chart
+
 1)	Consultant: 60% 
 2)	Executive: 59% 
 3)	Finance Manager: 59% 
 4)	Marketing Director: 59% 
 5)	Startup Founder: 59%
+
+
 This test was inconclusive.
+
 Analysis 2.3 – Expected Net Salary Increase/Decrease as a Factor for MBA Pursuers
 For this analysis, we first calculated the expected net salary increase/decrease for each participant post MBA, and determined the mean value for each desired post MBA role. The values ranged from $54,000 - $58,000, but this wasn’t sufficient for our tests. 
 Next, we decided to segregate the data based on MBA pursuers that expected a salary increase, and MBA pursuers that expected a pay decrease. Among 5,907 participants who pursued an MBA, 5,045 expected a net salary increase, while 862 expected a pay decrease. 
+
 Insert Pie Chart here
+
 This test identified that 85.4% of MBA pursuers were likely motivated by earnings potential as a key factor when making their decision. 14.6% of MBA pursuers expected a net salary decrease, but followed through with their decision. These participants were likely motivated to pursue an MBA for factors relating to career changes, or future career success after a few years of experience.
+
 Thus, we can conclude that a net salary increase has a strong correlation to pursuing an MBA.
+
 Analysis 2.4 – Which Reasons Motivated More Participants to Pursue an MBA
 In this dataset, we were given 4 main reasons participants decided to pursue an MBA – entrepreneurship, skill enhancement, career growth, and networking. We split these reasons among MBA pursuers and MBA non-pursuers based on their current job titles. 
 For MBA Pursuers:
-Although most of these values were very close, we discovered that networking was the most influential reason for pursuing an MBA for Analysts, Consultants, and Entrepreneurs. It was also the second most influential reason for Engineers. Skill enhancement was also a large driving force for all participants with the exception of managers. Career growth, also had a smaller impact. 
+
 Insert chart here
+
+Although most of these values were very close, we discovered that networking was the most influential reason for pursuing an MBA for Analysts, Consultants, and Entrepreneurs. It was also the second most influential reason for Engineers. Skill enhancement was also a large driving force for all participants with the exception of managers. Career growth, also had a smaller impact. 
+
 For MBA Non-Pursuers:
+
 Insert Chart here
+
 With the exception of analysts, most MBA non-pursuers considered an MBA but were least likely to do so for entrepreneurship. We found these participants did not value entrepreneurship as a strong enough reason to follow through with pursuing an MBA. Each job title had specific reasons they valued more than others, and there was usually a reason they valued far less, but no other factor of great significance was identified.
+
 Thus we can conclude that for participants that decided to pursue an MBA, networking was the most influential factor. For participants that decided to not pursue an MBA, entrepreneurship was the factor least likely to influence their decision. 
+
 Section 3 – Age and Gender’s Impact on Pursuing an MBA
+-------------------------------------------------------
 Analysis 3.1 – Gender 
