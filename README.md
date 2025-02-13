@@ -186,6 +186,7 @@ Final Conclusion
 Although this study was able to determine 2 conclusions: salary increase post-MBA has a strong correlation to pursuing an MBA (see Analysis 2.3), and males are more likely to pursue an MBA (see Analysis 3.1), most of our tests were inconclusive.
 We were only able to prove Hypothesis 3: A net salary increase would positively correlate to pursuing an MBA. 
 This is largely due to the fact that data across all columns of this dataset are too evenly distributed. We worked with nearly equal values across every portion of the study to the point that almost every analysis yielded similar results no matter how to data was divided.
+
 We can conclude that more diverse data is needed before coming to an accurate conclusion as this is an inaccurate representation of real life.
 
 
