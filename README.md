@@ -61,7 +61,8 @@ This dataset was comprised of the following degrees along with their representat
 5)	Science (20.9%)
 
 
-Insert Pie Chart Here
+[!Pie Chart](https://github.com/HGrewal13/MBA-decisions-study/blob/main/Output/fig_1_undergraduate_distribution.jpg)
+[](Output/fig_1_undergraduate_distribution.jpg)
 
 Our first analysis showed that each undergraduate degree had an almost equal number of MBA pursuers. Thus, we can conclude that undergraduate major was not a determining factor when identifying which group is more likely to pursue an MBA. 
 This test was inconclusive. 
