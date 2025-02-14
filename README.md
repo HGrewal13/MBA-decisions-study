@@ -1,4 +1,4 @@
-# MBA-decisions-study
+# MBA Decision Study & Analysis
 A study on factors influencing the decision of undergraduates on pursuing an MBA.
 
 Dataset Used
