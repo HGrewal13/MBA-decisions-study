@@ -86,6 +86,8 @@ We then determined the ratio of MBA pursuers to total participants among these 5
 From our bar chart, we can see that Ranks 11-50 and ranks 251-500 were most likely to pursue an MBA among other groups. Ranks 51-100 were the least likely. 
 To further understand this data, we performed a logistical regression analysis and determined the model isn’t statistically significant. Our variable “Undergrad University Ranking” had no specific effect on the MBA decision, with a LLR p-value of 0.603 (p-values greater than 0.05 indicate insignificance). The pseudo R^2 value is very low, indicating that the independent variables are insufficient to explain the MBA decision.
 
+<img src = "https://github.com/HGrewal13/MBA-decisions-study/blob/main/Output/logistical_regression_1.png" width = 40%>
+
 This test was inconclusive.
 
 Analysis 1.3 – Undergraduate GPA vs Pursuing MBA
@@ -101,7 +103,7 @@ This test was inconclusive.
 Multivariable Logistic Regression Analysis
 We performed one final logistical regression analysis on our entire education dataframe in order to see if there was any other variable that could be used to influence participants’ decision to pursue an MBA. 
 
-Insert Analysis here
+<img src = "https://github.com/HGrewal13/MBA-decisions-study/blob/main/Output/logistical_regression_2.png" width = 40%>
 
 All p-values for our columns were over 0.05, indicating there were no variables within this dataset that could be used to determine the likelihood of participants pursuing an MBA.
 
